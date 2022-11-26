@@ -24,7 +24,7 @@ class Header extends StatelessWidget {
         if (!Responsive.isMobile(context))
           Spacer(flex: Responsive.isDesktop(context) ? 2 : 1),
         const Expanded(child: SearchField()),
-        const ProfileCard()
+        const ProfileCard(),
       ],
     );
     //
